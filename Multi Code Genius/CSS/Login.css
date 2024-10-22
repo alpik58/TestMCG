@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Gilroy SemiBold";
+  src: url("../Assets/gilroy-semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-image: url("../Images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 451px 710px;
+  justify-content: center;
+}
+
+.section1 {
+  padding-top: 30px;
+  background-color: rgb(8, 75, 62);
+  padding-left: 54px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.section1 > p {
+  display: flex;
+  flex-direction: column;
+  padding-top: 365px;
+  color: rgb(249, 226, 186);
+  font-weight: 500;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+  max-width: 350px;
+  font-family: "Gilroy SemiBold";
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(35, 35, 35);
+  font-size: 34px;
+  font-family: "Gilroy SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: -0.5px;
+  padding-left: 53px;
+  padding-top: 50px;
+}
+
+.section2 .details {
+  margin-top: 18px;
+  color: rgb(52, 52, 52);
+  font-family: "Gilroy SemiBold";
+  font-size: 16px;
+  font-weight: 550;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  letter-spacing: 0.207px;
+}
+
+.inputs {
+  line-height: 24px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  border-bottom: 1px solid !important;
+  width: 451px;
+  outline: none;
+  box-shadow: none;
+}
+
+.text {
+  margin-top: 47px;
+  color: rgb(52, 52, 52);
+  font-family: "Gilroy SemiBold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.207px;
+}
+
+.button {
+  margin-top: 50px;
+  display: flex;
+  width: 355px;
+  height: 25px;
+  padding: 24px 43px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: rgb(0, 195, 139);
+  cursor: pointer;
+}
+
+.button > p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Gilroy SemiBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  letter-spacing: -0.562px;
+}
+
+.terms {
+  margin-top: 138px;
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+}
+
+.underline {
+  text-decoration: underline;
+  color: inherit;
+  cursor: pointer;
+}
+
+.login1 {
+  font-size: 14px;
+  color: rgb(189, 189, 189);
+  margin-top: -20px;
+}
+
+.login {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(0, 195, 139);
+}
